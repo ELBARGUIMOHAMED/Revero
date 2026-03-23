@@ -1,0 +1,299 @@
+{
+  "Common": {
+    "language": "Langue",
+    "dashboard": "Tableau de bord",
+    "signIn": "Se connecter",
+    "startFree": "Commencer gratuitement",
+    "signOut": "Se déconnecter"
+  },
+  "Auth": {
+    "signIn": "Se connecter",
+    "createAccount": "Créer un compte",
+    "noAccount": "Pas de compte ?",
+    "createOne": "Créer un compte",
+    "hasAccount": "Vous avez déjà un compte ?",
+    "email": "Email",
+    "password": "Mot de passe",
+    "emailPlaceholder": "vous@entreprise.com",
+    "passwordPlaceholder": "Votre mot de passe",
+    "passwordMin": "Au moins 6 caractères",
+    "signingIn": "Connexion...",
+    "creatingAccount": "Création du compte...",
+    "signInFailed": "Échec de la connexion.",
+    "registerFailed": "Échec de la création du compte."
+  },
+  "Landing": {
+    "hero": {
+      "title": "Facturez plus intelligemment. Soyez payé plus vite.",
+      "subtitle": "Revora aide les freelances et les agences à créer des factures, suivre les revenus et gérer la facturation récurrente dans un tableau de bord simple.",
+      "primaryCta": "Commencer gratuitement",
+      "secondaryCta": "Voir la démo",
+      "trustLine": "Aucune carte bancaire requise. Annulation à tout moment.",
+      "scarcity": "Rejoignez plus de 1 000 freelances qui développent leurs revenus."
+    },
+    "featuresHeading": "Conçu pour les équipes concentrées",
+    "featuresSubheading": "Des outils clairs, des actions rapides et des contrôles simples pour réduire la charge administrative.",
+    "features": [
+      {
+        "title": "Création rapide",
+        "description": "Créez et envoyez des factures en quelques minutes."
+      },
+      {
+        "title": "Visibilité revenus",
+        "description": "Suivez les factures payées, envoyées, brouillons et en retard."
+      },
+      {
+        "title": "Facturation récurrente",
+        "description": "Gérez les abonnements sans complexité."
+      },
+      {
+        "title": "Prêt à l'international",
+        "description": "Facturez vos clients internationaux en plusieurs devises."
+      },
+      {
+        "title": "Sécurité moderne",
+        "description": "Authentification moderne et isolation des données."
+      },
+      {
+        "title": "Export PDF",
+        "description": "Générez des PDF professionnels en un clic."
+      }
+    ],
+    "socialProofTitle": "Adopté par plus de 1 000 freelances dans le monde",
+    "testimonials": [
+      {
+        "name": "Lina K.",
+        "role": "Freelance",
+        "quote": "Revora a réduit de moitié mon temps de facturation."
+      },
+      {
+        "name": "Marcus D.",
+        "role": "Dirigeant d'agence",
+        "quote": "Un tableau de bord clair, adopté rapidement par l'équipe."
+      },
+      {
+        "name": "Sara N.",
+        "role": "Freelance",
+        "quote": "Simple, premium et rassurant pour facturer à l'international."
+      }
+    ],
+    "pricing": {
+      "heading": "Tarification simple",
+      "subheading": "Commencez gratuitement puis passez à l'échelle quand votre volume augmente.",
+      "perMonth": "par mois",
+      "free": {
+        "title": "Gratuit",
+        "price": "0 $",
+        "cta": "Commencer",
+        "features": [
+          "Jusqu'à 10 factures/mois",
+          "Export PDF",
+          "Analytique de base"
+        ]
+      },
+      "pro": {
+        "title": "Pro",
+        "price": "19 $",
+        "badge": "Le plus populaire",
+        "cta": "Passer à Pro",
+        "features": [
+          "Factures illimitées",
+          "Factures récurrentes",
+          "Analytique avancée",
+          "Intégration Stripe",
+          "Support prioritaire"
+        ]
+      }
+    },
+    "faqHeading": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Revora est-il sécurisé ?",
+        "a": "Oui. Revora utilise une authentification moderne et une isolation stricte des données."
+      },
+      {
+        "q": "Puis-je annuler à tout moment ?",
+        "a": "Oui, vous pouvez annuler ou changer de plan à tout moment."
+      },
+      {
+        "q": "Carte bancaire nécessaire pour le plan gratuit ?",
+        "a": "Non, aucune carte bancaire n'est requise."
+      },
+      {
+        "q": "Revora prend-il en charge plusieurs devises ?",
+        "a": "Oui, Revora prend en charge la facturation multi-devises."
+      }
+    ],
+    "finalCta": {
+      "heading": "Prêt à simplifier votre facturation ?",
+      "subheading": "Commencez gratuitement, envoyez votre première facture aujourd'hui.",
+      "button": "Commencer gratuitement"
+    },
+    "footer": {
+      "copy": "© {year} Revora. Facturation intelligente pour les entreprises modernes.",
+      "getStarted": "Commencer",
+      "signIn": "Connexion",
+      "dashboard": "Tableau de bord"
+    }
+  },
+  "DashboardShell": {
+    "workspace": "Espace Revora",
+    "freePlanUsage": "Utilisation du plan gratuit : {used}/{limit} factures ce mois-ci. Passez à Pro pour des factures illimitées.",
+    "upgradePlan": "Passer à Pro",
+    "proPlan": "Plan Pro - Factures illimitées",
+    "adminMode": "Mode administrateur"
+  },
+  "DashboardNav": {
+    "overview": "Vue d'ensemble",
+    "invoices": "Factures",
+    "profile": "Profil",
+    "billing": "Facturation"
+  },
+  "Toasts": {
+    "invoice_created": "Facture créée avec succès.",
+    "invoice_updated": "Facture mise à jour avec succès.",
+    "invoice_deleted": "Facture supprimée avec succès."
+  },
+  "Dashboard": {
+    "overviewTag": "Aperçu",
+    "title": "Tableau des revenus",
+    "subtitle": "Suivez la santé de vos factures et vos performances de paiement.",
+    "totalRevenue": "Revenu total",
+    "trend": "{value} par rapport au mois dernier",
+    "cards": {
+      "paid": "Factures payées",
+      "overdue": "Factures en retard",
+      "sent": "Factures envoyées",
+      "draft": "Brouillons"
+    },
+    "recentInvoices": "Factures récentes",
+    "newInvoice": "Nouvelle facture",
+    "empty": {
+      "title": "Aucune facture",
+      "description": "Créez votre première facture.",
+      "cta": "Créer une facture"
+    }
+  },
+  "DashboardChart": {
+    "title": "Revenus mensuels",
+    "range": "6 derniers mois"
+  },
+  "Invoices": {
+    "title": "Factures",
+    "subtitle": "Gérez et suivez toutes vos factures.",
+    "newInvoice": "Nouvelle facture",
+    "emptyTitle": "Aucune facture",
+    "emptyDescription": "Créez votre première facture.",
+    "createFirst": "Créer votre première facture",
+    "createTitle": "Créer une facture",
+    "createSubtitle": "Générez une facture professionnelle en quelques secondes.",
+    "editTitle": "Modifier {number}",
+    "editSubtitle": "Mettez à jour les détails et gardez des données fiables.",
+    "edit": "Modifier",
+    "issueDate": "Date d'émission",
+    "dueDate": "Date d'échéance",
+    "status": "Statut",
+    "subtotal": "Sous-total",
+    "tax": "Taxe ({rate}%)",
+    "total": "Total",
+    "notes": "Notes",
+    "deleteConfirm": "Supprimer cette facture ? Cette action est irréversible.",
+    "deleteFailed": "Échec de suppression.",
+    "deleting": "Suppression...",
+    "delete": "Supprimer",
+    "statusUpdateFailed": "Échec de mise à jour du statut.",
+    "updating": "Mise à jour...",
+    "markAs": "Marquer comme {status}",
+    "table": {
+      "number": "Numéro",
+      "client": "Client",
+      "status": "Statut",
+      "total": "Total",
+      "date": "Date",
+      "description": "Description",
+      "qty": "Qté",
+      "unit": "Unité"
+    },
+    "statuses": {
+      "draft": "brouillon",
+      "sent": "envoyée",
+      "paid": "payée",
+      "overdue": "en retard"
+    }
+  },
+  "InvoiceForm": {
+    "clientName": "Nom du client",
+    "clientEmail": "Email du client",
+    "issueDate": "Date d'émission",
+    "dueDate": "Date d'échéance",
+    "currency": "Devise",
+    "status": "Statut",
+    "taxRate": "Taux de taxe (%)",
+    "items": "Articles",
+    "addItem": "Ajouter un article",
+    "remove": "Supprimer",
+    "notes": "Notes",
+    "notesPlaceholder": "Conditions de paiement, coordonnées bancaires ou notes",
+    "subtotal": "Sous-total",
+    "tax": "Taxe",
+    "total": "Total",
+    "saving": "Enregistrement...",
+    "createInvoice": "Créer la facture",
+    "saveChanges": "Enregistrer",
+    "saveError": "Impossible d'enregistrer la facture.",
+    "statuses": {
+      "draft": "brouillon",
+      "sent": "envoyée",
+      "paid": "payée",
+      "overdue": "en retard"
+    }
+  },
+  "Profile": {
+    "title": "Profil",
+    "subtitle": "Personnalisez les informations de votre entreprise.",
+    "companyName": "Nom de l'entreprise",
+    "logoUrl": "URL du logo",
+    "taxId": "ID fiscal",
+    "save": "Enregistrer",
+    "saving": "Enregistrement...",
+    "updated": "Profil mis à jour.",
+    "updateError": "Impossible de mettre à jour le profil."
+  },
+  "Billing": {
+    "title": "Facturation",
+    "subtitle": "Gérez votre abonnement et débloquez les factures illimitées.",
+    "free": {
+      "title": "Plan gratuit",
+      "limit": "{limit} factures/mois",
+      "analytics": "Analytique de base",
+      "pdf": "Export PDF"
+    },
+    "pro": {
+      "title": "Plan Pro (19 $/mois)",
+      "unlimited": "Factures illimitées",
+      "stripe": "Intégration Stripe",
+      "support": "Analytique avancée + support prioritaire"
+    },
+    "currentStatus": "Statut actuel :",
+    "checkoutError": "Échec du paiement.",
+    "active": "Votre abonnement Pro est actif.",
+    "redirecting": "Redirection...",
+    "upgrade": "Passer à Pro"
+  },
+  "Pdf": {
+    "download": "Télécharger PDF",
+    "title": "FACTURE",
+    "invoiceNumber": "Facture #",
+    "issueDate": "Date d'émission",
+    "dueDate": "Date d'échéance",
+    "billTo": "Facturer à",
+    "notes": "Notes",
+    "subtotal": "Sous-total",
+    "tax": "Taxe",
+    "total": "Total",
+    "tableDescription": "Description",
+    "tableQty": "Qté",
+    "tableUnitPrice": "Prix unitaire",
+    "tableTotal": "Total"
+  }
+}

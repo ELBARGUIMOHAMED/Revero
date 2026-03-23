@@ -1,0 +1,300 @@
+{
+  "Common": {
+    "language": "Language",
+    "dashboard": "Dashboard",
+    "signIn": "Sign in",
+    "startFree": "Start free",
+    "signOut": "Sign out"
+  },
+  "Auth": {
+    "signIn": "Sign in",
+    "createAccount": "Create account",
+    "noAccount": "No account?",
+    "createOne": "Create one",
+    "hasAccount": "Already have an account?",
+    "email": "Email",
+    "password": "Password",
+    "emailPlaceholder": "you@company.com",
+    "passwordPlaceholder": "Your password",
+    "passwordMin": "At least 6 characters",
+    "signingIn": "Signing in...",
+    "creatingAccount": "Creating account...",
+    "signInFailed": "Sign in failed.",
+    "registerFailed": "Account creation failed."
+  },
+  "Landing": {
+    "hero": {
+      "title": "Invoice smarter. Get paid faster.",
+      "subtitle": "Revora helps freelancers and agencies create invoices, track revenue, and manage recurring billing - all in one simple dashboard.",
+      "primaryCta": "Start Free",
+      "secondaryCta": "View Demo",
+      "trustLine": "No credit card required. Cancel anytime.",
+      "scarcity": "Join 1,000+ freelancers scaling their revenue."
+    },
+    "featuresHeading": "Built for focused teams",
+    "featuresSubheading": "Clear tools, fast actions, and simple billing controls that remove admin friction from your week.",
+    "features": [
+      {
+        "title": "Fast Invoice Creation",
+        "description": "Build and send invoices in minutes with a clean, guided workflow."
+      },
+      {
+        "title": "Revenue Visibility",
+        "description": "Track paid, sent, draft, and overdue invoices from one dashboard."
+      },
+      {
+        "title": "Recurring Billing",
+        "description": "Manage recurring billing and subscriptions without extra complexity."
+      },
+      {
+        "title": "Global Ready",
+        "description": "Support international clients with currency-ready invoicing."
+      },
+      {
+        "title": "Secure Infrastructure",
+        "description": "Built with modern authentication and data isolation by default."
+      },
+      {
+        "title": "PDF Exports",
+        "description": "Generate professional PDFs for clients with one click."
+      }
+    ],
+    "socialProofTitle": "Trusted by 1,000+ freelancers worldwide",
+    "testimonials": [
+      {
+        "name": "Lina K.",
+        "role": "Freelancer",
+        "quote": "Revora cut my invoicing time in half and helped me get paid faster every month."
+      },
+      {
+        "name": "Marcus D.",
+        "role": "Agency owner",
+        "quote": "Clean dashboard, clear revenue tracking, and a setup my whole team adopted quickly."
+      },
+      {
+        "name": "Sara N.",
+        "role": "Freelancer",
+        "quote": "The experience feels premium and simple. It gave me confidence to charge globally."
+      }
+    ],
+    "pricing": {
+      "heading": "Simple pricing",
+      "subheading": "Start free, prove value quickly, and upgrade when your invoicing volume grows.",
+      "perMonth": "per month",
+      "free": {
+        "title": "Free",
+        "price": "$0",
+        "cta": "Start Free",
+        "features": [
+          "Up to 10 invoices/month",
+          "PDF export",
+          "Basic analytics"
+        ]
+      },
+      "pro": {
+        "title": "Pro",
+        "price": "$19",
+        "badge": "Most Popular",
+        "cta": "Upgrade to Pro",
+        "features": [
+          "Unlimited invoices",
+          "Recurring invoices",
+          "Advanced analytics",
+          "Stripe subscription integration",
+          "Priority support"
+        ]
+      }
+    },
+    "faqHeading": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "Is Revora secure?",
+        "a": "Yes. Revora uses modern authentication and secure data isolation to protect every account."
+      },
+      {
+        "q": "Can I cancel anytime?",
+        "a": "Absolutely. You can upgrade or cancel your Pro subscription whenever you need."
+      },
+      {
+        "q": "Do I need a credit card for Free?",
+        "a": "No. You can start with the Free plan immediately without entering a credit card."
+      },
+      {
+        "q": "Does Revora support multiple currencies?",
+        "a": "Yes. Revora supports multi-currency invoicing for international clients."
+      }
+    ],
+    "finalCta": {
+      "heading": "Ready to simplify your invoicing?",
+      "subheading": "Start for free, send your first invoice today, and scale with recurring billing when you are ready.",
+      "button": "Start Free"
+    },
+    "footer": {
+      "copy": "© {year} Revora. Smart invoicing for modern businesses.",
+      "getStarted": "Get Started",
+      "signIn": "Sign In",
+      "dashboard": "Dashboard"
+    }
+  },
+  "DashboardShell": {
+    "workspace": "Revora Workspace",
+    "freePlanUsage": "Free Plan usage: {used}/{limit} invoices this month. Upgrade to unlock unlimited invoicing.",
+    "upgradePlan": "Upgrade Plan",
+    "proPlan": "Pro Plan - Unlimited invoices",
+    "adminMode": "Admin mode"
+  },
+  "DashboardNav": {
+    "overview": "Overview",
+    "invoices": "Invoices",
+    "profile": "Profile",
+    "billing": "Billing"
+  },
+  "Toasts": {
+    "invoice_created": "Invoice created successfully.",
+    "invoice_updated": "Invoice updated successfully.",
+    "invoice_deleted": "Invoice deleted successfully."
+  },
+  "Dashboard": {
+    "overviewTag": "Overview",
+    "title": "Revenue dashboard",
+    "subtitle": "Track invoice health, revenue momentum, and payment performance.",
+    "totalRevenue": "Total revenue",
+    "trend": "{value} vs last month",
+    "cards": {
+      "paid": "Paid invoices",
+      "overdue": "Overdue invoices",
+      "sent": "Sent invoices",
+      "draft": "Draft invoices"
+    },
+    "recentInvoices": "Recent invoices",
+    "newInvoice": "New invoice",
+    "empty": {
+      "title": "No invoices yet",
+      "description": "Create your first invoice to start tracking revenue.",
+      "cta": "Create your first invoice"
+    }
+  },
+  "DashboardChart": {
+    "title": "Monthly Revenue",
+    "range": "Last 6 months"
+  },
+  "Invoices": {
+    "title": "Invoices",
+    "subtitle": "Manage and track all your invoices in one place.",
+    "newInvoice": "New invoice",
+    "emptyTitle": "No invoices yet",
+    "emptyDescription": "Create your first invoice to start tracking revenue.",
+    "createFirst": "Create your first invoice",
+    "createTitle": "Create invoice",
+    "createSubtitle": "Generate a professional invoice in seconds.",
+    "editTitle": "Edit {number}",
+    "editSubtitle": "Update details and keep billing records accurate.",
+    "edit": "Edit",
+    "issueDate": "Issue date",
+    "dueDate": "Due date",
+    "status": "Status",
+    "subtotal": "Subtotal",
+    "tax": "Tax ({rate}%)",
+    "total": "Total",
+    "notes": "Notes",
+    "deleteConfirm": "Delete this invoice? This action cannot be undone.",
+    "deleteFailed": "Failed to delete invoice.",
+    "deleting": "Deleting...",
+    "delete": "Delete",
+    "statusUpdateFailed": "Failed to update status.",
+    "updating": "Updating...",
+    "markAs": "Mark as {status}",
+    "table": {
+      "number": "Number",
+      "client": "Client",
+      "status": "Status",
+      "total": "Total",
+      "date": "Date",
+      "description": "Description",
+      "qty": "Qty",
+      "unit": "Unit"
+    },
+    "statuses": {
+      "draft": "draft",
+      "sent": "sent",
+      "paid": "paid",
+      "overdue": "overdue"
+    }
+  },
+  "InvoiceForm": {
+    "clientName": "Client name",
+    "clientEmail": "Client email",
+    "issueDate": "Issue date",
+    "dueDate": "Due date",
+    "currency": "Currency",
+    "status": "Status",
+    "taxRate": "Tax rate (%)",
+    "items": "Items",
+    "addItem": "Add item",
+    "remove": "Remove",
+    "notes": "Notes",
+    "notesPlaceholder": "Payment terms, bank details, or notes",
+    "subtotal": "Subtotal",
+    "tax": "Tax",
+    "total": "Total",
+    "saving": "Saving...",
+    "createInvoice": "Create invoice",
+    "saveChanges": "Save changes",
+    "saveError": "Could not save invoice.",
+    "statuses": {
+      "draft": "draft",
+      "sent": "sent",
+      "paid": "paid",
+      "overdue": "overdue"
+    }
+  },
+  "Profile": {
+    "title": "Profile",
+    "subtitle": "Customize your company details used in generated invoices.",
+    "companyName": "Company name",
+    "logoUrl": "Logo URL",
+    "taxId": "Tax ID",
+    "save": "Save profile",
+    "saving": "Saving...",
+    "updated": "Profile updated.",
+    "updateError": "Could not update profile."
+  },
+  "Billing": {
+    "title": "Billing",
+    "subtitle": "Manage your subscription and unlock unlimited invoicing.",
+    "free": {
+      "title": "Free Plan",
+      "limit": "{limit} invoices/month",
+      "analytics": "Basic analytics",
+      "pdf": "PDF export"
+    },
+    "pro": {
+      "title": "Pro Plan ($19/month)",
+      "unlimited": "Unlimited invoices",
+      "stripe": "Stripe integration",
+      "support": "Advanced analytics + Priority support"
+    },
+    "currentStatus": "Current status:",
+    "checkoutError": "Checkout failed.",
+    "active": "Your Pro subscription is active.",
+    "redirecting": "Redirecting...",
+    "upgrade": "Upgrade to Pro"
+  },
+  "Pdf": {
+    "download": "Download PDF",
+    "loading": "Loading...",
+    "title": "INVOICE",
+    "invoiceNumber": "Invoice #",
+    "issueDate": "Issue Date",
+    "dueDate": "Due Date",
+    "billTo": "Bill To",
+    "notes": "Notes",
+    "subtotal": "Subtotal",
+    "tax": "Tax",
+    "total": "Total",
+    "tableDescription": "Description",
+    "tableQty": "Qty",
+    "tableUnitPrice": "Unit Price",
+    "tableTotal": "Total"
+  }
+}
